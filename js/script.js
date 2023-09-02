@@ -52,7 +52,7 @@ function drawClock() {
 
     // Draw center point
     context.beginPath();
-    context.arc(centerX, centerY, 5, 0, 2 * Math.PI);
+    context.arc(centerX, centerY, 2, 0, 2 * Math.PI);
     context.fillStyle = '#c41703';
     context.fill();
 
