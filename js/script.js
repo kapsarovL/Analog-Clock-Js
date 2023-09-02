@@ -26,7 +26,7 @@ function drawClock() {
     context.arc(centerX, centerY, radius, 2, 2, 2 * Math.PI);
     context.fillStyle = '#727171';
     context.fill();
-    context.strokeStyle = '#001a22ff';
+    context.strokeStyle = '#003849ff';
     context.lineWidth = 1;
     context.stroke();
 
