@@ -35,7 +35,7 @@ body {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  border: 0.1rem solid rgba(93, 252, 239, 0.521);
+  border: 0.1rem solid rgba(216, 216, 216, 0.884);
   box-shadow: 0 4px 4px 2px rgba(93, 252, 239, 0.24), 0 4px 4px 0 rgba(88, 255, 241, 0.178);
  
 }
