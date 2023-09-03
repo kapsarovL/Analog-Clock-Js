@@ -69,4 +69,4 @@ This JavaScript clock code was created by kapsarovL.
 
 ## License
 
-This code is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
+This code is licensed under the [MIT LICENSE](https://github.com/kapsarovL/Analog-Clock-Js?tab=MIT-1-ov-file#readmee). Feel free to use, modify, and distribute it as needed.
