@@ -26,7 +26,7 @@ function drawClock() {
     context.arc(centerX, centerY, radius, 2, 2, 2 * Math.PI);
     context.fillStyle = '#727171';
     context.fill();
-    context.strokeStyle = '#00485ebd';
+    context.strokeStyle = '#cc3300';
     context.lineWidth = 1;
     context.stroke();
 
@@ -47,13 +47,13 @@ function drawClock() {
     // Draw second hand
     const secondAngle = seconds * (360 / 60);
     drawHand(centerX, centerY, secondAngle, radius * 0.8, 1 );
-    context.fillStyle = "#6de73c";
+    context.fillStyle = "";
     context.fill();
 
     // Draw center point
     context.beginPath();
     context.arc(centerX, centerY, 3, 0, 2 * Math.PI);
-    context.fillStyle = '#c41703';
+    context.fillStyle = '#575757';
     context.fill();
 
     requestAnimationFrame(drawClock);

@@ -4,7 +4,7 @@
 
 :root {
     --primary-color: #000;
-    --secondary-color: #dadada;
+    --secondary-color: #fff;
 }
 
 html {
@@ -12,13 +12,13 @@ html {
 }
 
 html.dark {
-    --secondary-color: #dadada;
-    --primary-color: #000;
+    --primary-color: #fff;
+    --secondary-color: #333;
 }
 
 html.dark {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: #111;
+    color: var(--primary-color);
 }
 
 body {
@@ -35,9 +35,9 @@ body {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  border: 0.1rem solid rgba(216, 216, 216, 0.884);
-  box-shadow: 0 4px 4px 2px rgba(93, 252, 239, 0.24), 0 4px 4px 0 rgba(88, 255, 241, 0.178);
- 
+  border: 0.2em solid #999999;
+  box-shadow:  1px 1px 1px #56ffd0,  1px 1px 1px #33ff00;
+ opacity: 0.8;
 }
 
 .toggle {
