@@ -53,7 +53,7 @@ function drawClock() {
     // Draw center point
     context.beginPath();
     context.arc(centerX, centerY, 3, 0, 2 * Math.PI);
-    context.fillStyle = '#575757';
+    context.fillStyle = '#33ff00';
     context.fill();
 
     requestAnimationFrame(drawClock);
